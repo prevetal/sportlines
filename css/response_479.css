@@ -1,0 +1,662 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 28px;
+        --font_size_title_small: 22px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .item .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: calc(100% - 44px);
+    }
+
+    .accordion .item .icon
+    {
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+    }
+
+    .accordion .item .data
+    {
+        padding: 0 20px 20px;
+    }
+
+
+
+    /*----------
+        More
+    ----------*/
+    .more
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 10px 0 20px;
+    }
+
+
+    header .logo
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        width: auto;
+        height: 26px;
+        margin: 0;
+    }
+
+    header .logo span
+    {
+        height: 26px;
+    }
+
+
+    header .contacts
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        justify-content: space-between;
+        order: 3;
+    }
+
+
+    header .btns .btn + .btn
+    {
+        margin-left: 5px;
+    }
+
+    header .btns .search_btn .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+    header .btns .menu_btn .icon
+    {
+        width: 24px;
+        height: 21px;
+    }
+
+
+    header .socials
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Search modal
+    ------------------*/
+    .search_modal form .input
+    {
+        font-size: 18px;
+
+        width: calc(100% - 88px);
+        height: 70px;
+    }
+
+    .search_modal form .submit_btn,
+    .search_modal form .close
+    {
+        width: 44px;
+        height: 70px;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal .links
+    {
+        margin-bottom: -15px;
+    }
+
+    .menu_modal .links > *
+    {
+        width: calc(100% - 30px);
+        margin-bottom: 15px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.big
+    {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+
+
+    .page_title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(var(--font_size_title) + 6px);
+    }
+
+
+    .page_desc,
+    .page_desc.text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title small
+    {
+        font-size: calc(var(--font_size_title_small) - 4px);
+        line-height: calc(var(--font_size_title_small) + 2px);
+
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 21px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .text_block h3
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .text_block h4
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 6px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        padding: 17px 20px;
+
+        background: #ffdd30 url(../images/bg_quote.svg) calc(100% - 30px) 100%/55px 13px no-repeat;
+    }
+
+
+
+    /*---------------
+        Materials
+    ---------------*/
+    .materials .material .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .materials .material .thumb.video_link .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+    .materials .material .thumb.video_link .icon > *
+    {
+        width: 25px;
+        height: 24px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .action_form .data
+    {
+        padding: 30px 25px;
+
+        border-width: 5px;
+    }
+
+
+    .action_form .head .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .action_form .head .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*-------------
+        Booking
+    -------------*/
+    .booking .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .booking .courts,
+    .booking .date_time
+    {
+        margin-top: 50px;
+    }
+
+    .booking .courts .title,
+    .booking .date_time .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .booking .courts .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .booking .courts .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .booking .courts label
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        min-height: 46px;
+    }
+
+
+    .booking .date_time .colors
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    .booking .date_time .prev_next a
+    {
+        width: 68px;
+        height: 48px;
+    }
+
+    .booking .date_time .prev_next .icon
+    {
+        width: 25px;
+        height: 20px;
+    }
+
+
+    .booking .date_time .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .booking .date_time .row > *
+    {
+        width: calc(33.333% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+
+    /*-----------------
+        Tournaments
+    -----------------*/
+    .tournaments .tournament .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .tariff
+    {
+        padding: 25px 25px 100px;
+    }
+
+    .tariffs .tariff .price
+    {
+        font-size: 32px;
+        line-height: 32px;
+
+        margin-top: 5px;
+    }
+
+    .tariffs .tariff .period
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .tariffs .links a
+    {
+        font-size: 13px;
+        line-height: 18px;
+
+        padding: 9px 11px;
+    }
+
+
+
+    /*------------------
+        First lesson
+    ------------------*/
+    .first_lesson .includes .prices > *
+    {
+        width: calc(100% - 10px);
+    }
+
+    .first_lesson .includes .prices > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Will learn
+    ----------------*/
+    .will_learn .title
+    {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+
+
+    /*-------------------------
+        Additional services
+    -------------------------*/
+    .additional_services .service .name
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        padding-top: 150px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(var(--font_size_title) + 6px);
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 25px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .head .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .advantages .head .title span
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-top: 0;
+        margin-left: 35px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -35px;
+        margin-left: -20px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 35px;
+        margin-left: 20px;
+    }
+
+    .advantages .item
+    {
+        line-height: 20px;
+    }
+
+    .advantages .item br
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Budget
+    ------------*/
+    .budget .info .title small
+    {
+        line-height: calc(var(--font_size_title_small) + 6px);
+    }
+
+
+    .budget .info .links a .icon1
+    {
+        width: 44px;
+        height: 28px;
+    }
+
+    .budget .info .links a .icon2
+    {
+        width: 23px;
+        height: 26px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > .article .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .articles .row > .article .thumb.video_link .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+    .articles .row > .article .thumb.video_link .icon > *
+    {
+        width: 25px;
+        height: 24px;
+    }
+
+
+    .articles .list > .article .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        About squash
+    ------------------*/
+    .about_squash .pluses .item .icon
+    {
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+
+    .why_franchise .cities
+    {
+        column-count: 2;
+    }
+
+
+
+    /*------------------------
+        Franchise included
+    ------------------------*/
+    .franchise_included .item .info
+    {
+        padding: 20px;
+    }
+
+    .franchise_included .item ul li
+    {
+        padding-left: 22px;
+    }
+
+
+
+    /*---------------------
+        Franchise order
+    ---------------------*/
+    .franchise_order .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer:before
+    {
+        height: 60px;
+    }
+
+
+
+    footer .menu
+    {
+        width: 100%;
+    }
+
+
+    footer .links
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 30px;
+    }
+}

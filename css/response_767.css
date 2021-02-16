@@ -1,0 +1,1069 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+        --font_size_title_small: 22px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 25px;
+        height: 20px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .buttonUp button
+    {
+        width: 60px;
+        height: 40px;
+    }
+
+    .buttonUp button:after
+    {
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .item .head
+    {
+        min-height: 58px;
+        padding: 12px 20px 12px 20px;
+    }
+
+    .accordion .item .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-top: 20px;
+    }
+
+
+    header .logo
+    {
+        margin-bottom: 15px;
+    }
+
+
+    header .socials
+    {
+        top: 4px;
+    }
+
+    header .socials a + a
+    {
+        margin-left: 15px;
+    }
+
+    header .socials .facebook .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    header .socials .vkontakte .icon
+    {
+        width: 28px;
+        height: 16px;
+    }
+
+    header .socials .instagram .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    header .socials .youtube .icon
+    {
+        width: 26px;
+        height: 18px;
+    }
+
+
+
+    /*------------------
+        Search modal
+    ------------------*/
+    .search_modal form .input
+    {
+        font-size: 22px;
+
+        height: 80px;
+    }
+
+    .search_modal form .submit_btn,
+    .search_modal form .close
+    {
+        height: 80px;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal
+    {
+        padding: 50px 0 30px;
+    }
+
+
+    .menu_modal .links > *
+    {
+        width: calc(50% - 30px);
+    }
+
+    .menu_modal .links a,
+    .menu_modal .links a small
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.big
+    {
+        padding-top: 145px;
+        padding-bottom: 70px;
+    }
+
+    .page_head .cont > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .page_title
+    {
+        font-size: calc(var(--font_size_title) + 4px);
+        line-height: calc(var(--font_size_title) + 8px);
+
+        padding-bottom: 28px;
+    }
+
+
+    .page_desc,
+    .page_desc.text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .page_head .link
+    {
+        height: 44px;
+        margin-top: 30px;
+        padding: 12px 20px 10px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 22px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 25px;
+    }
+
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+    .form .submit
+    {
+        padding-top: 10px;
+    }
+
+    .form .submit_btn
+    {
+        height: 42px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .text_block h3
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text_block h4
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .text_block h5
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        margin-bottom: 15px !important;
+    }
+
+
+    .text_block figure
+    {
+        padding: 15px 0 0;
+    }
+
+    .text_block figure img,
+    .text_block figure figcaption
+    {
+        width: 100%;
+    }
+
+    .text_block figure figcaption
+    {
+        margin-top: 15px;
+
+        order: 2;
+    }
+
+
+    .text_block .table_wrap
+    {
+        padding-bottom: 5px;
+    }
+
+    .text_block table
+    {
+        width: 728px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(100% - 25px);
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 30px;
+    }
+
+
+    .text_block ul li + li,
+    .text_block ol li + li
+    {
+        margin-top: 5px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin: 30px 0;
+        padding: 20px 25px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*---------------
+        Materials
+    ---------------*/
+    .materials .row > *
+    {
+        width: calc(100% - 30px);
+    }
+
+
+    .materials .material .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .action_form .data
+    {
+        padding: 30px;
+
+        border-width: 10px;
+    }
+
+
+    .action_form .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .action_form .head .title
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .action_form .head .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------
+        Booking
+    -------------*/
+    .booking .schemas .title
+    {
+        position: relative;
+        top: 0;
+
+        margin-bottom: 15px;
+    }
+
+
+    .booking .courts .title,
+    .booking .date_time .title
+    {
+        font-size: 26px;
+        line-height: 34px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .booking .courts .row > *
+    {
+        width: calc(33.333% - 15px);
+    }
+
+
+    .booking .date_time .colors > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .booking .date_time .row > *
+    {
+        width: calc(25% - 15px);
+    }
+
+
+    .booking .date_time label
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .booking .date_time .day label .week_day
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        top: 6px;
+        right: 9px;
+    }
+
+    .booking .date_time .day label .val
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    .booking .date_time label
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        min-height: 40px;
+    }
+
+
+
+    /*-----------------
+        Tournaments
+    -----------------*/
+    .tournaments .row
+    {
+        margin-bottom: -25px;
+    }
+
+    .tournaments .row > *
+    {
+        width: calc(100% - 30px);
+        margin-bottom: 25px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 60px 0;
+    }
+
+
+    .tariffs .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .tariffs .tariff .price
+    {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .tariffs .tariff .period
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tariffs .tariff .features
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tariffs .tariff .features > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+    .tariffs .tariff .link .btn
+    {
+        height: 44px;
+        padding: 12px 20px 10px;
+    }
+
+
+
+    .tariffs .links
+    {
+        margin-top: 35px;
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .tariffs .links > *
+    {
+        max-width: calc(100% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .tariffs .warning
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        First lesson
+    ------------------*/
+    .first_lesson
+    {
+        padding-top: 10px;
+    }
+
+    .first_lesson .includes .items > * + *
+    {
+        margin-left: 12px;
+    }
+
+    .first_lesson .includes .prices
+    {
+        padding: 25px 20px 0;
+    }
+
+    .first_lesson .includes .prices .price
+    {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .first_lesson .includes .prices .btn
+    {
+        height: 44px;
+        padding: 12px 20px 10px;
+    }
+
+    .first_lesson .includes .warning
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 20px;
+    }
+
+
+
+    /*----------------
+        Will learn
+    ----------------*/
+    .will_learn
+    {
+        padding: 50px 0;
+    }
+
+
+    .will_learn .title
+    {
+        font-size: 35px;
+        line-height: 35px;
+
+        bottom: calc(100% + 43px);
+    }
+
+
+    .will_learn .item
+    {
+        width: 50%;
+    }
+
+    .will_learn .item:nth-child(5) + .sep
+    {
+        display: block;
+    }
+
+    .will_learn .item:nth-child(3) + .sep,
+    .will_learn .item:nth-child(7) + .sep
+    {
+        display: none;
+    }
+
+    .will_learn .item .icon
+    {
+        height: 70px;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-------------------------
+        Additional services
+    -------------------------*/
+    .additional_services
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .additional_services .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*---------
+        Ads
+    ---------*/
+    .ads .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .ads .ad
+    {
+        padding: 20px;
+    }
+
+    .ads .ad .title
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 550px;
+        padding-top: 140px;
+        padding-bottom: 80px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: calc(var(--font_size_title) + 4px);
+        line-height: calc(var(--font_size_title) + 8px);
+
+        padding-bottom: 28px;
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Links wall
+    ----------------*/
+    .links_wall
+    {
+        padding: 60px 0;
+    }
+
+
+    .links_wall .row > *
+    {
+        width: calc(100% - 25px);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 60px 0;
+    }
+
+
+    .advantages .head .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .advantages .head .title span
+    {
+        font-size: 23px;
+        line-height: 27px;
+
+        margin-left: 43px;
+    }
+
+
+    .advantages .head .item
+    {
+        width: calc(100% + 40px);
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+    .advantages .item .icon
+    {
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .advantages .item .icon img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+
+    /*------------
+        Budget
+    ------------*/
+    .budget
+    {
+        padding: 60px 0;
+    }
+
+
+    .budget .days,
+    .budget .info,
+    .budget .gallery
+    {
+        width: calc(100% - 30px);
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons
+    {
+        padding: 60px 0;
+    }
+
+
+    .persons .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 60px 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(100% - 30px);
+    }
+
+
+
+    /*------------------
+        About squash
+    ------------------*/
+    .about_squash
+    {
+        padding: 60px 0;
+    }
+
+
+    .about_squash .stats .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: calc(50% - 10px);
+    }
+
+    .about_squash .stats .item .val
+    {
+        font-size: 60px;
+        line-height: 60px;
+
+        margin-bottom: 10px;
+    }
+
+    .about_squash .stats .item br
+    {
+        display: none;
+    }
+
+
+    .about_squash .pluses .item
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*-------------------
+        Why franchise
+    -------------------*/
+    .why_franchise
+    {
+        padding: 60px 0;
+    }
+
+
+    .why_franchise .history .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: calc(50% - 30px);
+    }
+
+    .why_franchise .history .item .year
+    {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+
+    .why_franchise .cities
+    {
+        column-gap: 25px;
+        column-count: 3;
+    }
+
+    .why_franchise .cities > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+
+    /*----------------
+        Investment
+    ----------------*/
+    .investment .slide_wrap
+    {
+        padding: 0;
+
+        border-width: 10px;
+    }
+
+
+
+    /*------------------------
+        Franchise included
+    ------------------------*/
+    .franchise_included .block_head
+    {
+        margin-bottom: 35px;
+    }
+
+
+    .franchise_included .item + .item
+    {
+        margin-top: 40px;
+    }
+
+    .franchise_included .item .info
+    {
+        width: 100%;
+        padding: 20px 25px;
+    }
+
+    .franchise_included .item .title
+    {
+        margin-bottom: 12px;
+    }
+
+    .franchise_included .item .thumb
+    {
+        width: 100%;
+        padding-bottom: 60%;
+
+        order: 2;
+    }
+
+
+
+    /*---------------------
+        Franchise order
+    ---------------------*/
+    .franchise_order
+    {
+        min-height: 0;
+        padding: 60px 0;
+    }
+
+    .franchise_order.title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer:before
+    {
+        height: 70px;
+    }
+
+
+    footer .menu > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    footer .contacts > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    footer .socials .facebook .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+    footer .socials .vkontakte .icon
+    {
+        width: 28px;
+        height: 17px;
+    }
+
+    footer .socials .instagram .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+    footer .socials .youtube .icon
+    {
+        width: 28px;
+        height: 20px;
+    }
+
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        top: 5px;
+        right: 5px;
+    }
+
+
+    .modal
+    {
+        padding: 40px;
+
+        border-width: 10px;
+    }
+
+    .modal_title
+    {
+        margin-bottom: 30px;
+    }
+}

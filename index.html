@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ffdd30">
+		<meta name="theme-color" content="#ffdd30">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<div class="cont row">
+						<div class="logo">
+							<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+							<div class="icon"></div>
+						</div>
+
+						<div class="location">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							<div>Москва, ул. Ивантеевская, д. 13/1</div>
+							<div class="time">ПН–ВС 07:00–00:00</div>
+						</div>
+
+						<div class="contacts">
+							<div>
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<a href="tel:+79256424975">+7 925 642-49-75</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+								</div>
+							</div>
+
+							<button class="callback_btn modal_link" data-content="#callback_modal">ОБРАТНЫЙ ЗВОНОК</button>
+
+							<a href="/" class="schedule_booking_link">
+								<span>РАСПИСАНИЕ<br> И БРОНИРОВАНИЕ</span>
+							</a>
+						</div>
+
+						<div class="btns">
+							<button class="search_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button class="menu_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="search_modal" id="search_modal">
+					<div class="cont">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button type="button" class="close"></button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="menu_modal" id="menu_modal">
+					<div class="cont">
+						<button type="button" class="close"></button>
+
+						<div class="links">
+							<div><a href="/">
+								<span>СКВОШ-КЛУБ «СПОРТИВНЫЕ ЛИНИИ»</span>
+								<small>Устав клуба</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>ЦЕНЫ И УСЛУГИ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ДЛЯ НАЧИНАЮЩИХ И МИЛЫХ ДАМ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>РАСПИСАНИЕ И БРОНИРОВАНИЕ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ТУРНИРЫ</span>
+								<small>Лига «Плохие парни»</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>НОВОСТИ КЛУБА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ПРОЕЗД И КОНТАКТЫ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ФРАНШИЗА</span>
+							</a></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="main_slider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">
+											#СПОРТИВНЫЕ ЛИНИИ
+											<small>СКВОШ КЛУБ КЛАССА «А» В МОСКВЕ</small>
+										</div>
+
+										<div class="desc text_block"><b>#СПОРТИВНЫЕ ЛИНИИ</b> — это полностью экипированный сквош клуб площадью 100 м2. На этой территории расположены 4 сквош-корта, удобные раздевалки и лаундж-зона с баром.</div>
+
+										<a href="/" class="link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">
+											#СПОРТИВНЫЕ ЛИНИИ
+											<small>СКВОШ КЛУБ КЛАССА «А» В МОСКВЕ</small>
+										</div>
+
+										<div class="desc text_block"><b>#СПОРТИВНЫЕ ЛИНИИ</b> — это полностью экипированный сквош клуб площадью 100 м2. На этой территории расположены 4 сквош-корта, удобные раздевалки и лаундж-зона с баром.</div>
+
+										<a href="/" class="link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">
+											#СПОРТИВНЫЕ ЛИНИИ
+											<small>СКВОШ КЛУБ КЛАССА «А» В МОСКВЕ</small>
+										</div>
+
+										<div class="desc text_block"><b>#СПОРТИВНЫЕ ЛИНИИ</b> — это полностью экипированный сквош клуб площадью 100 м2. На этой территории расположены 4 сквош-корта, удобные раздевалки и лаундж-зона с баром.</div>
+
+										<a href="/" class="link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+
+
+				<section class="links_wall">
+					<div class="cont">
+						<div class="row">
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>СКВОШ-КЛУБ</span></div>
+									<div class="exp"><span>«Спортивные линии»</span></div>
+								</div>
+
+								<img src="images/bg_links_wall1_1.png" alt="" class="bg bg1">
+								<img src="images/bg_links_wall1_2.png" alt="" class="bg bg2">
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb2.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>РАСПИСАНИЕ</span></div>
+									<div class="exp"><span>и бронирование</span></div>
+								</div>
+
+								<img src="images/bg_links_wall2_1.png" alt="" class="bg bg1">
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb3.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>КОНТАКТЫ</span></div>
+									<div class="exp"><span>Как к нам добраться</span></div>
+								</div>
+
+								<img src="images/bg_links_wall3_1.png" alt="" class="bg bg1">
+								<img src="images/bg_links_wall3_2.png" alt="" class="bg bg2">
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb4.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<span>
+											ЦЕНЫ И УСЛУГИ
+											<img src="images/bg_links_wall4_1.png" alt="" class="bg bg1">
+											<img src="images/bg_links_wall4_2.png" alt="" class="bg bg2">
+										</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb5.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<span>ТУРНИРЫ</span>
+										<img src="images/bg_links_wall5_1.png" alt="" class="bg bg1">
+									</div>
+
+									<div class="exp">
+										<span>Лига «Плохие парни»</span>
+										<img src="images/bg_links_wall5_1.png" alt="" class="bg bg2">
+									</div>
+								</div>
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb6.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>ИЩУ ПАРТНЕРА</span></div>
+								</div>
+
+								<img src="images/bg_links_wall6_1.png" alt="" class="bg bg1">
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb7.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<span>ДЛЯ НАЧИНАЮЩИХ</span>
+										<img src="images/bg_links_wall7_1.png" alt="" class="bg bg1">
+									</div>
+
+									<div class="exp">
+										<span>
+											и милых дам
+											<img src="images/bg_links_wall7_2.png" alt="" class="bg bg2">
+										</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb8.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>СВЕТСКАЯ ХРОНИКА</span></div>
+								</div>
+
+								<img src="images/bg_links_wall8_1.png" alt="" class="bg bg1">
+								<img src="images/bg_links_wall8_2.png" alt="" class="bg bg2">
+							</a>
+
+							<a href="/" class="link">
+								<div class="thumb">
+									<img data-src="images/tmp/links_wall_thumb9.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name"><span>ФРАНШИЗА</span></div>
+								</div>
+
+								<img src="images/bg_links_wall9_1.png" alt="" class="bg bg1">
+								<img src="images/bg_links_wall9_2.png" alt="" class="bg bg2">
+							</a>
+						</div>
+					</div>
+
+					<div class="bg"></div>
+				</section>
+
+
+				<section class="advantages">
+					<div class="cont">
+						<div class="head">
+							<div class="title">#СПОРТИВНЫЕ ЛИНИИ — <span>клуб для успешных людей</span></div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage.svg" alt="" class="lozad">
+								</div>
+								<div>Панорамный и 4 композитных корта<br> в приятных интерьерах</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage2.svg" alt="" class="lozad">
+								</div>
+								<div>Бесплатный инвентарь и разогретый<br> мяч каждому гостю</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage3.svg" alt="" class="lozad">
+								</div>
+								<div>Шаговая доступность<br> от ст. Метрополитена,<br> МЦК и северо-восточной хорды</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage4.svg" alt="" class="lozad">
+								</div>
+								<div>Тренажеры для размики<br> и заминки</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage5.svg" alt="" class="lozad">
+								</div>
+								<div>Бесплатная парковка, Wi-Fi<br> и видеозапись вашей игры</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage6.svg" alt="" class="lozad">
+								</div>
+								<div>Коворкинг (место для тех, кто<br> не может без работы)</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage7.svg" alt="" class="lozad">
+								</div>
+								<div>Уютные полотенца и полезная<br> вода каждому гостю</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage8.svg" alt="" class="lozad">
+								</div>
+								<div>Для самых главных: интерактивные<br> видео игры на больших экранах</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage9.svg" alt="" class="lozad">
+								</div>
+								<div>Сейфы, аренда шкафов<br> и прачечная</div>
+							</div>
+						</div>
+
+
+						<div class="link">
+							<a href="/">ПОСМОТРЕТЬ РАСПИСАНИЕ</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="tariffs">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">УСЛУГИ И ЦЕНЫ</div>
+						</div>
+
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="tariff">
+										<div class="name">ЧЛЕН КЛУБА</div>
+
+										<div class="price">5 000 £</div>
+
+										<div class="period">ГОДОВОЕ ЧЛЕНСТВО</div>
+
+										<div class="features">
+											<div>Неограниченное количество посещений</div>
+											<div>Игра на центральном корте</div>
+											<div>Персональный тренер</div>
+											<div>Приглашение партнера для игры</div>
+											<div>Разовое резервирование клуба для личного мероприятия</div>
+											<div>Ракетка, разогретый мяч</div>
+											<div>Пушка</div>
+											<div>Персональный шкаф и сейф</div>
+											<div>Услуги прачечной</div>
+											<div>Полотенце, правильная вода</div>
+											<div>Персональное парковочное место</div>
+											<div>Запись игры на магнитном носителе</div>
+											<div>Переговорный кабинет</div>
+											<div>Чай, кофе, виски, сигара</div>
+											<div>Такси</div>
+										</div>
+
+										<div class="link">
+											<button class="btn">КАК СТАТЬ ЧЛЕНОМ КЛУБА</button>
+										</div>
+
+										<div class="icon"></div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="tariff">
+										<div class="name">ТАРИФ А</div>
+
+										<div class="price">16 500 Р.</div>
+
+										<div class="period">1 550 Р./ЧАС</div>
+
+										<div class="valid">ДЕЙСТВУЕТ В ЖЕЛТЫЕ ЧАСЫ</div>
+
+										<div class="features">
+											<div>15 часов</div>
+											<div>Действует 60 дней</div>
+											<div>+5 бесплатных занятий в желтые часы</div>
+											<div>Игра на центральном корте по предварительной записи и игра на кортах № 1, 2, 3, 4</div>
+											<div>Приглашение на 5 бесплатных занятий партнера для игры (в желтые часы)</div>
+											<div>Ракетка, разогретый мяч</div>
+											<div>Пушка</div>
+											<div>Полотенце, правильная вода</div>
+											<div>Запись одной игры на магнитном носителе</div>
+											<div>Чай, кофе</div>
+											<div>Заказ такси</div>
+										</div>
+
+										<div class="link">
+											<button class="btn">КУПИТЬ</button>
+										</div>
+
+										<div class="icon"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
+							</div>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">Все услуги</a></div>
+							<div><a href="/">Для начинающих</a></div>
+							<div><a href="/">Ищу партнера</a></div>
+							<div><a href="/">Записаться на первое впечатление</a></div>
+						</div>
+
+
+						<div class="warning">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_warning"></use></svg>
+
+							<div class="title">Об отменах занятий</div>
+
+							<div>Отмена занятий производится только по электронной почте.</div>
+						</div>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/tmp/bg_tariffs.jpg"></div>
+				</section>
+
+
+				<section class="budget">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ДЛЯ ТЕХ, КОМУ ВАЖЕН БЮДЖЕТ</div>
+
+							<div class="desc">В <span>желтые</span> часы играть выгоднее!</div>
+						</div>
+
+
+						<div class="row">
+							<div class="days">
+								<div class="title">БУДНИЕ ДНИ</div>
+
+								<div class="list">
+									<div>07:00–08:00</div>
+									<div>08:00–09:00</div>
+									<div>09:00–10:00</div>
+									<div class="yellow">10:00–11:00</div>
+									<div class="yellow">11:00–12:00</div>
+									<div class="yellow">12:00–13:00</div>
+									<div class="yellow">13:00–14:00</div>
+									<div class="yellow">14:00–15:00</div>
+									<div class="yellow">15:00–16:00</div>
+									<div class="yellow">16:00–17:00</div>
+									<div>17:00–18:00</div>
+									<div>18:00–19:00</div>
+									<div>19:00–20:00</div>
+									<div>20:00–21:00</div>
+									<div>21:00–22:00</div>
+									<div>22:00–23:00</div>
+								</div>
+							</div>
+
+							<img data-src="images/ic_budget.svg" alt="" class="lozad icon">
+
+							<div class="days">
+								<div class="title">ВЫХОДНЫЕ И ПРАЗДНИКИ</div>
+
+								<div class="list">
+									<div class="yellow">07:00–08:00</div>
+									<div class="yellow">08:00–09:00</div>
+									<div>09:00–10:00</div>
+									<div>10:00–11:00</div>
+									<div>11:00–12:00</div>
+									<div>12:00–13:00</div>
+									<div>13:00–14:00</div>
+									<div>14:00–15:00</div>
+									<div>15:00–16:00</div>
+									<div>16:00–17:00</div>
+									<div>17:00–18:00</div>
+									<div>18:00–19:00</div>
+									<div>19:00–20:00</div>
+									<div class="yellow">20:00–21:00</div>
+									<div class="yellow">21:00–22:00</div>
+									<div class="yellow">22:00–23:00</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="info">
+								<div class="title">
+									<span>#</span>СПОРТИВНЫЕ ЛИНИИ —
+									<small>приятная атмосфера в изысканных интерьерах</small>
+								</div>
+
+								<div class="text_block">
+									<p>Сквош – это игровой ракеточный вид спорта на специальном закрытом прямоугольном корте 6,40 на 9,75 метров с использованием всех четырёх стен. В сквош играют два человека (один на один) специальными ракетками и маленьким черным или белым мячом. Игроки поочередно направляют мяч рикошетом от передней стены так, чтобы соперник не успел его отбить.</p>
+
+									<p>Достаточно длительное время сквош оставался прерогативой элитных школ и закрытых клубов. Но сейчас сквош является поистине международным видом спорта и переживает настоящий бум по всему миру: в сквош играют в 153 странах более чем на 60 тысячах кортов. Ежегодно в мире строится около 500 кортов.</p>
+								</div>
+
+								<div class="links">
+									<div><a href="/">
+										<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_health"></use></svg>
+										<span>ЖИЗНЬ В КЛУБЕ</span>
+									</a></div>
+
+									<div><a href="/">
+										<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_charter"></use></svg>
+										<span>УСТАВ КЛУБА</span>
+									</a></div>
+								</div>
+							</div>
+
+
+							<div class="gallery">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="slide swiper-slide">
+											<a href="images/tmp/gallery_thumb.jpg" class="link" data-fancybox="gallery">
+												<img data-src="images/tmp/gallery_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/gallery_thumb.jpg" class="link" data-fancybox="gallery">
+												<img data-src="images/tmp/gallery_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/gallery_thumb.jpg" class="link" data-fancybox="gallery">
+												<img data-src="images/tmp/gallery_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+									</div>
+
+									<div class="swiper-button-prev">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+									</div>
+
+									<div class="swiper-button-next">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="persons">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ЛУЧШИЕ РЕКОМЕНДУЮТ ЛУЧШИХ</div>
+						</div>
+
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="person">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/person_thumb.jpg" alt="" class="lozad">
+
+											<div class="lines vertical top right"></div>
+											<div class="lines vertical bottom left"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">ДАНИИЛ МЕДВЕДЕВ</a>
+										</div>
+
+										<div class="desc">Российский профессиональный теннисист; победитель Итогового турнира ATP 2020 года в одиночном разряде, финалист Открытого чемпионата США 2019 года в одиночном разряде, победитель девяти турниров ATP в одиночном разряде. Один из двух российских теннисистов в XXI веке (наряду с Маратом Сафиным), который доходил до финала турнира Большого шлема в одиночном разряде.</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="person">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/person_thumb2.jpg" alt="" class="lozad">
+
+											<div class="lines horizontal bottom left"></div>
+											<div class="lines vertical bottom right"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">АНАСТАСИЯ ПАВЛЮЧЕНКОВА</a>
+										</div>
+
+										<div class="desc">Российская теннисистка, мастер спорта международного класса. Победительница 17 турниров WTA (12 — в одиночном разряде); трёхкратная финалистка Кубка Федерации в составе национальной сборной России; победительница трёх юниорских турниров Большого шлема в одиночном разряде; победительница пяти юниорских турниров Большого шлема в парном разряде; бывшая первая ракетка мира в юниорском рейтинге.</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/tmp/bg_persons.jpg"></div>
+				</section>
+
+
+				<section class="articles">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">НОВОСТИ КЛУБА</div>
+						</div>
+
+
+						<div class="row">
+							<div class="article">
+								<a href="https://www.youtube.com/watch?v=fy-QFFj5RlM" class="thumb video_link" data-fancybox>
+									<img data-src="images/tmp/material_thumb.jpg" alt="" class="lozad">
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+									</div>
+								</a>
+
+								<div class="name">
+									<a href="/"><span>Расписание прямых видеотрансляций из клуба</span></a>
+								</div>
+
+								<div class="date">06 ФЕВРАЛЯ 2021</div>
+
+								<div class="desc">Сквош-корты с бесшовными игровыми поверхностями с самыми высокими показателями износостойкости, звукоизоляции, равномерности отскока и характеристиками, соответствующими требованиям WSF.</div>
+							</div>
+
+
+							<div class="list">
+								<div class="article">
+									<a href="/" class="thumb">
+										<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div>
+										<div class="name">
+											<a href="/"><span>График работы клуба в новогодние праздники</span></a>
+										</div>
+
+										<div class="date">22 ДЕКАБРЯ 2020</div>
+									</div>
+								</div>
+
+								<div class="article">
+									<a href="/" class="thumb">
+										<img data-src="images/tmp/tournament_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div>
+										<div class="name">
+											<a href="/"><span>Тренерский курс</span></a>
+										</div>
+
+										<div class="date">15 НОЯБРЯ 2020</div>
+									</div>
+								</div>
+
+								<div class="all_link">
+									<a href="/">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_all"></use></svg>
+										<span>ВСЕ НОВОСТИ</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bg"><span></span></div>
+					<img data-src="images/bg_articles.png" alt="" class="bg_img lozad">
+				</section>
+
+
+				<section class="action_form">
+					<div class="cont">
+						<div class="data">
+							<div class="head">
+								<div class="title">ОСТАЛИСЬ ВОПРОСЫ?</div>
+
+								<div class="desc">Свяжитесь с нами по телефону <a href="tel:+7495642495" class="phone">+7 495 642-49-75</a> или <a href="/">WhatsApp</a><br> Вы также можете оставить свои контактные данные и мы свяжемся с вами в ближайшее время.</div>
+							</div>
+
+							<form action="" class="form">
+								<div class="columns row">
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input">
+
+											<div class="label">Ваше имя <span class="required">*</span></div>
+
+											<!-- <div class="error_text">Это поле необходимо заполнить</div> -->
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="tel" name="" value="" class="input">
+
+											<div class="label">Телефон <span class="required">*</span></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<textarea name="" placeholder="Сообщение"></textarea>
+									</div>
+								</div>
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+								</div>
+							</form>
+
+							<img data-src="images/bg_action_form.svg" alt="" class="bg bg1 lozad">
+							<img data-src="images/bg_action_form2.svg" alt="" class="bg bg2 lozad">
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+								<div class="icon"></div>
+							</div>
+
+							<div class="subscribe">
+								<div class="title">Подпишитесь на рассылку</div>
+
+								<form action="" class="form">
+									<input type="email" name="" value="" class="input" placeholder="Ваш e-mail">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>ПОДПИСАТЬСЯ</span>
+									</button>
+								</form>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div><a href="/">О КЛУБЕ</a></div>
+							<div><a href="/">УСЛУГИ И ЦЕНЫ</a></div>
+							<div><a href="/">РАСПИСАНИЕ</a></div>
+							<div><a href="/">ФРАНШИЗА</a></div>
+							<div><a href="/">НОВОСТИ</a></div>
+							<div><a href="/">КОНТАКТЫ</a></div>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">
+								<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_money"></use></svg>
+								<span>КАК С НАМИ ЗАРАБОТАТЬ</span>
+							</a></div>
+
+							<div><a href="/">
+								<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_partners"></use></svg>
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+79256424975">+7 925 642-49-75</a>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<div class="address">Москва, ул. Ивантеевская, д. 13/1</div>
+								<div class="time">ПН–ВС 07:00–00:00</div>
+							</div>
+
+							<div class="whatsapp">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								<a href="#">WhatsApp</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="col_left"></div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+
+						<div class="privacy_policy">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="buttonUp">
+				<button></button>
+			</div>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">ОБРАТНЫЙ ЗВОНОК</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+
+							<div class="label">Ваше имя <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+
+							<div class="label">Телефон <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line agree">
+						<div class="field">
+							<input type="checkbox" name="agree" id="callback_agree_check">
+							<label for="callback_agree_check">
+								Я соглашаюсь на обработку моих персональных данных и принимаю<br> <a href="/" target="_blank">Политику конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

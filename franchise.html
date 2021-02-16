@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ffdd30">
+		<meta name="theme-color" content="#ffdd30">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+							<div class="icon"></div>
+						</a>
+
+						<div class="location">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							<div>Москва, ул. Ивантеевская, д. 13/1</div>
+							<div class="time">ПН–ВС 07:00–00:00</div>
+						</div>
+
+						<div class="contacts">
+							<div>
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<a href="tel:+79256424975">+7 925 642-49-75</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+								</div>
+							</div>
+
+							<button class="callback_btn modal_link" data-content="#callback_modal">ОБРАТНЫЙ ЗВОНОК</button>
+
+							<a href="/" class="schedule_booking_link">
+								<span>РАСПИСАНИЕ<br> И БРОНИРОВАНИЕ</span>
+							</a>
+						</div>
+
+						<div class="btns">
+							<button class="search_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button class="menu_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="search_modal" id="search_modal">
+					<div class="cont">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button type="button" class="close"></button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="menu_modal" id="menu_modal">
+					<div class="cont">
+						<button type="button" class="close"></button>
+
+						<div class="links">
+							<div><a href="/">
+								<span>СКВОШ-КЛУБ «СПОРТИВНЫЕ ЛИНИИ»</span>
+								<small>Устав клуба</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>ЦЕНЫ И УСЛУГИ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ДЛЯ НАЧИНАЮЩИХ И МИЛЫХ ДАМ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>РАСПИСАНИЕ И БРОНИРОВАНИЕ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ТУРНИРЫ</span>
+								<small>Лига «Плохие парни»</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>НОВОСТИ КЛУБА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ПРОЕЗД И КОНТАКТЫ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ФРАНШИЗА</span>
+							</a></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head big">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">ГЛАВНАЯ</a> <span class="sep">//</span>
+							<span class="current">ФРАНШИЗА</span>
+						</div>
+
+						<h1 class="page_title">Франшиза сквош клуба #СПОРТИВНЫЕ ЛИНИИ и Belka Squash Group</h1>
+
+						<div class="page_desc text_block full">
+							<p>Откройте сквош клуб от лидера рынка и зарабатывайте за счет отработанной бизнес-технологии.</p>
+						</div>
+
+						<button class="link scroll_link" data-anchor="#about_squash">УЗНАТЬ УСЛОВИЯ</button>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/tmp/bg_franchise_head.jpg"></div>
+				</section>
+
+
+				<section class="about_squash" id="about_squash">
+					<div class="cont">
+						<div class="row">
+							<div class="block_head">
+								<div class="title lines">
+									ЧТО ТАКОЕ СВКОШ?
+									<small>Сквош — это игровой ракеточный вид спорта на специальном закрытом прямоугольном корте 6,40 на 9,75 метров с использованием всех четырёх стен. </small>
+								</div>
+
+								<div class="desc text_block">
+									<p>В сквош играют два человека (один на один) специальными ракетками и маленьким черным или белым мячом.<br> Игроки поочередно направляют мяч рикошетом от передней стены так, чтобы соперник не успел его отбить.</p>
+
+									<p>Достаточно длительное время сквош оставался прерогативой элитных школ и закрытых клубов. Но сейчас сквош является поистине международным видом спорта и переживает настоящий бум по всему миру: в сквош играют в 153 странах более чем на 60 тысячах кортов. Ежегодно в мире строится около 500 кортов.</p>
+								</div>
+							</div>
+
+
+							<div class="stats">
+								<div class="item">
+									<div class="val">157</div>
+									<div>В стольких странах люди играют более<br> чем на 60 тысячах кортов</div>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<div class="val">500</div>
+									<div>Столько кортов ежегодно строится<br> по всему миру</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="pluses">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_pluses.svg" alt="" class="lozad">
+								</div>
+								<div>По версии Forbes, сквош — самый<br> здоровый вид спорта</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_pluses2.svg" alt="" class="lozad">
+								</div>
+								<div>Эффективно способствует<br> избавлению от лишнего веса</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_pluses3.svg" alt="" class="lozad">
+								</div>
+								<div>За 1 час игрок в сквош теряет<br> до 1000 калорий</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_pluses4.svg" alt="" class="lozad">
+								</div>
+								<div>Простой способ приобрести<br> отличную физическую форму</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="why_franchise">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="block_head">
+								<div class="title lines">
+									ПОЧЕМУ ИНВЕСТОРЫ  ВЫБИРАЮТ НАШУ ФРАНШИЗУ
+									<small>#СПОРТИВНЫЕ ЛИНИИ и BelKa Squash Group — команда настоящих профессионалов с многолетним опытом в сквош-индустрии.</small>
+								</div>
+
+								<div class="desc text_block">
+									<p>Мы объединили знания в строительстве спортивных объектов, производстве сквош- кортов, а также внушительную практику управления сквош-клубами. Подтверждение тому – более 100 успешных проектов на различных стадиях создания и управления спортивными объектами в России.</p>
+								</div>
+							</div>
+
+
+							<div class="history">
+								<div class="item">
+									<div class="year">2008</div>
+									<div>Первый смонтированный корт</div>
+								</div>
+
+								<div class="item">
+									<div class="year">2010</div>
+									<div>Открытие первого сквош клуба</div>
+								</div>
+
+								<div class="item">
+									<div class="year">2012</div>
+									<div>Первый стеклянный корт</div>
+								</div>
+
+								<div class="item">
+									<div class="year">2014</div>
+									<div>Создание первой сети сквош клубов в России</div>
+								</div>
+
+								<div class="item">
+									<div class="year">2016</div>
+									<div>Первый корт за рубежом</div>
+								</div>
+
+								<div class="item">
+									<div class="year">2018</div>
+									<div>Первый корт на открытом воздухе</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="map">
+							<img data-src="images/franchise_map.png" alt="" class="lozad">
+
+							<div class="cities">
+								<div>Москва</div>
+								<div>Санкт-Петербург</div>
+								<div>Нижний Новгород</div>
+								<div>Смоленск</div>
+								<div>Владивосток</div>
+								<div>Махачкала</div>
+								<div>Новосибирск</div>
+								<div>Ярославль</div>
+								<div>Самара</div>
+								<div>Тула</div>
+								<div>Иркутск</div>
+								<div>Магадан</div>
+								<div>Владимир</div>
+								<div>Химки</div>
+								<div>Юрьев</div>
+								<div>Грозный</div>
+								<div>Якутск</div>
+								<div>Екатеринбург</div>
+								<div>Казань</div>
+								<div>Городец</div>
+								<div>Курск</div>
+								<div>Салават</div>
+								<div>Братск</div>
+								<div>Белгород</div>
+								<div>Солнечногорск</div>
+								<div>Тверь</div>
+								<div>Элиста</div>
+								<div>Тольяти</div>
+								<div>Северодвинск</div>
+								<div>Ижеевск</div>
+								<div>Шемкент</div>
+								<div>Дубна</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/tmp/bg_why_franchise.jpg"></div>
+				</section>
+
+
+				<section class="advantages block">
+					<div class="cont">
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage10.svg" alt="" class="lozad">
+								</div>
+								<div>Индивидуальный подход<br> для каждого объекта</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage11.svg" alt="" class="lozad">
+								</div>
+								<div>Современные инновационные<br> технологии</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage12.svg" alt="" class="lozad">
+								</div>
+								<div>Более 100 успешных проектов<br> по всей России</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage13.svg" alt="" class="lozad">
+								</div>
+								<div>Поддержка 24/7</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage14.svg" alt="" class="lozad">
+								</div>
+								<div>Собственное производство<br> сквош-кортов</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage15.svg" alt="" class="lozad">
+								</div>
+								<div>Наилучшее сочетание<br> цена/качество</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage16.svg" alt="" class="lozad">
+								</div>
+								<div>Поставка и монтаж в кратчайшие<br> сроки по всей России</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_advantage17.svg" alt="" class="lozad">
+								</div>
+								<div>До 7 лет гарантии</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="investment block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ИНВЕСТИЦИОННАЯ ЭФФЕКТИВНОСТЬ</div>
+						</div>
+
+
+						<div class="slide_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<a href="images/tmp/investment_img.jpg" class="fancy_img" data-fancybox="investment">
+											<img data-src="images/tmp/investment_img.jpg" alt="" class="lozad">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/investment_img.jpg" class="fancy_img" data-fancybox="investment">
+											<img data-src="images/tmp/investment_img.jpg" alt="" class="lozad">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/investment_img.jpg" class="fancy_img" data-fancybox="investment">
+											<img data-src="images/tmp/investment_img.jpg" alt="" class="lozad">
+										</a>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
+								</div>
+							</div>
+
+							<div class="lines lines1"></div>
+							<div class="lines lines2"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="franchise_included block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ЧТО ВХОДИТ В ПАКЕТ ФРАНШИЗЫ СКВОШ КЛУБА<br> <span>#</span>СПОРТИВНЫЕ ЛИНИИ</div>
+						</div>
+
+
+						<div class="item alignleft">
+							<div class="info">
+								<div class="title">АНАЛИЗ ПРОЕКТА СКВОШ КЛУБА</div>
+
+								<ul>
+									<li>Анализ локации, спроса, конкурентов</li>
+									<li>Оценка рентабельности</li>
+									<li>Определение целевой аудитории</li>
+									<li>Разработка концепции, логотипа, слоганов</li>
+									<li>Разработка ценовой политики</li>
+									<li>Подбор линейки услуг, подбор персонала</li>
+									<li>Разработка бизнес-плана</li>
+									<li>Разработка маркетинговой стратегии</li>
+								</ul>
+							</div>
+
+							<div class="thumb">
+								<img data-src="images/tmp/franchise_included_thumb.jpg" alt="" class="lozad">
+							</div>
+						</div>
+
+
+						<div class="item alignright">
+							<div class="thumb">
+								<img data-src="images/tmp/franchise_included_thumb2.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="info">
+								<div class="title">СТРОИТЕЛЬСТВО СКВОШ КЛУБОВ «ПОД КЛЮЧ»</div>
+
+								<ul>
+									<li>Разработка оптимальной планировки</li>
+									<li>3D-моделирование и разработка дизайна</li>
+									<li>Проектирование сквош-клуба (стадия ПП)</li>
+									<li>Участие в подготовке и утверждении сметы</li>
+									<li>Генеральный подряд, подбор субподрядчиков</li>
+									<li>Контроль качества и сроков строительства</li>
+									<li>Сдача-приемка объекта, ввод в эксплуатацию</li>
+									<li>Поставка и монтаж сквош-кортов</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="item alignleft">
+							<div class="info">
+								<div class="title">КОНСАЛТИНГ НА НАЧАЛЬНОМ ЭТАПЕ РАБОТЫ КЛУБА</div>
+
+								<ul>
+									<li>Заключение договоров с контрагентами</li>
+									<li>Работа с поставщиками, наполнение магазина</li>
+									<li>Подбор и обучение персонала</li>
+									<li>Подбор и обучение тренеров</li>
+									<li>Настройка учета и отчетности</li>
+									<li>Автоматизация процессов</li>
+									<li>Привлечение первых клиентов</li>
+									<li>Организация первых мероприятий и акций клуба</li>
+								</ul>
+							</div>
+
+							<div class="thumb">
+								<img data-src="images/tmp/franchise_included_thumb3.jpg" alt="" class="lozad">
+							</div>
+						</div>
+
+
+						<div class="item alignright">
+							<div class="thumb">
+								<img data-src="images/tmp/franchise_included_thumb4.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="info">
+								<div class="title">РАЗВИТИЕ И УПРАВЛЕНИЕ КЛУБОМ</div>
+
+								<ul>
+									<li>Увеличение заполняемости и прибыли</li>
+									<li>Оптимизация расходов</li>
+									<li>Подбор помещений под новые клубы</li>
+									<li>Разработка франшизы</li>
+									<li>Поиск инвесторов, продажа бизнеса</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="franchise_order">
+					<div class="cont">
+						<div class="title">ХОТИТЕ ОТКРЫТЬ СВОЙ СКВОШ КЛУБ<br> ПО ФРАНШИЗЕ В СВОЕМ ГОРОДЕ?</div>
+
+						<div class="sub_title">Выбирайте франшизу сквош клуба <span>#СПОРТИВНЫЕ ЛИНИИ</span> и Belka Squash Group.</div>
+
+						<div class="desc">Оставьте заявку и получите профессиональную консультацию специалиста отдела франчайзинга.</div>
+
+						<button class="btn modal_link" data-content="#callback_modal">ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ</button>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/tmp/bg_franchise_order.jpg"></div>
+				</section>
+			</div>
+
+
+			<footer class="no_line">
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+								<div class="icon"></div>
+							</div>
+
+							<div class="subscribe">
+								<div class="title">Подпишитесь на рассылку</div>
+
+								<form action="" class="form">
+									<input type="email" name="" value="" class="input" placeholder="Ваш e-mail">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>ПОДПИСАТЬСЯ</span>
+									</button>
+								</form>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div><a href="/">О КЛУБЕ</a></div>
+							<div><a href="/">УСЛУГИ И ЦЕНЫ</a></div>
+							<div><a href="/">РАСПИСАНИЕ</a></div>
+							<div><a href="/">ФРАНШИЗА</a></div>
+							<div><a href="/">НОВОСТИ</a></div>
+							<div><a href="/">КОНТАКТЫ</a></div>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">
+								<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_money"></use></svg>
+								<span>КАК С НАМИ ЗАРАБОТАТЬ</span>
+							</a></div>
+
+							<div><a href="/">
+								<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_partners"></use></svg>
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+79256424975">+7 925 642-49-75</a>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<div class="address">Москва, ул. Ивантеевская, д. 13/1</div>
+								<div class="time">ПН–ВС 07:00–00:00</div>
+							</div>
+
+							<div class="whatsapp">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								<a href="#">WhatsApp</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="col_left"></div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+
+						<div class="privacy_policy">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="buttonUp">
+				<button></button>
+			</div>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">ОБРАТНЫЙ ЗВОНОК</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+
+							<div class="label">Ваше имя <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+
+							<div class="label">Телефон <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line agree">
+						<div class="field">
+							<input type="checkbox" name="agree" id="callback_agree_check">
+							<label for="callback_agree_check">
+								Я соглашаюсь на обработку моих персональных данных и принимаю<br> <a href="/" target="_blank">Политику конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

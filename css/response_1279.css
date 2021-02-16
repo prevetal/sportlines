@@ -1,0 +1,1098 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 42px;
+        --font_size_title_small: 28px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .item .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 35px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 48px 0 30px;
+    }
+
+
+    header .logo
+    {
+        font-size: 24px;
+        line-height: 33px;
+
+        height: 31px;
+    }
+
+    header .logo span
+    {
+        height: 31px;
+    }
+
+
+    header .location
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Search modal
+    ------------------*/
+    .search_modal form .input
+    {
+        font-size: 30px;
+
+        height: 110px;
+    }
+
+    .search_modal form .submit_btn,
+    .search_modal form .close
+    {
+        height: 110px;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal
+    {
+        padding: 50px 0 40px;
+    }
+
+
+    .menu_modal .links
+    {
+        margin-bottom: -20px;
+        margin-left: -30px;
+    }
+
+    .menu_modal .links > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .menu_modal .links a
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .menu_modal .links a small
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .menu_modal .close
+    {
+        top: -52px;
+        right: 0;
+
+        width: 54px;
+        height: 54px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 10px;
+    }
+
+    .page_head.big
+    {
+        min-height: 0;
+    }
+
+    .page_head .cont > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .page_title
+    {
+        font-size: calc(var(--font_size_title) + 10px);
+        line-height: calc(var(--font_size_title) + 20px);
+
+        padding-bottom: 28px;
+    }
+
+
+    .page_desc,
+    .page_desc.text_block
+    {
+        font-size: 21px;
+        line-height: 29px;
+
+        width: 760px;
+        margin-top: 35px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .block_head .desc
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: 760px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 50px;
+    }
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+    .form .submit
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *,
+    .text_block figure figcaption > *,
+    .text_block .cols .col > *,
+    .text_block .bg > *,
+    .text_block .hide > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 40px;
+        line-height: 50px;
+
+        margin-bottom: 25px;
+    }
+
+    .text_block h3
+    {
+        font-size: 30px;
+        line-height: 40px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h4
+    {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .text_block h5
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .text_block figure
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .text_block figure img,
+    .text_block figure figcaption
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .text_block .point
+    {
+        padding-bottom: 35px;
+    }
+
+
+    .text_block .cols
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block .cols .col
+    {
+        width: calc(33.333% - 25px);
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 26px;
+        line-height: 34px;
+
+        margin: 40px 0;
+        padding: 30px 40px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 60px;
+    }
+
+    .text_block .columns > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .text_block .bg
+    {
+        padding: 60px 0;
+    }
+
+
+    .text_block table td
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*---------------
+        Materials
+    ---------------*/
+    .materials .row
+    {
+        margin-bottom: -50px;
+        margin-left: -50px;
+    }
+
+    .materials .row > *
+    {
+        width: calc(50% - 50px);
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+
+    .materials .material .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        margin-bottom: 90px;
+    }
+
+
+    .action_form .data
+    {
+        padding: 50px;
+    }
+
+
+    .action_form .head
+    {
+        margin-bottom: 45px;
+    }
+
+    .action_form .head .title
+    {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .action_form .head .desc
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-top: 10px;
+    }
+
+
+
+    /*-------------
+        Booking
+    -------------*/
+    .booking .desc
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .booking .schemas .title
+    {
+        top: 35px;
+    }
+
+
+    .booking .date_time .colors
+    {
+        margin-left: -30px;
+    }
+
+    .booking .date_time .colors > *
+    {
+        max-width: calc(100% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .booking .date_time .prev_next a
+    {
+        width: 74px;
+        height: 51px;
+    }
+
+    .booking .date_time .prev_next .icon
+    {
+        width: 32px;
+        height: 26px;
+    }
+
+
+    .booking .courts .title,
+    .booking .date_time .title
+    {
+        font-size: 35px;
+        line-height: 45px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .booking .courts .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .booking .courts .row > *
+    {
+        width: calc(20% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .booking .courts label
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        min-height: 60px;
+        padding: 9px 14px;
+    }
+
+
+    .booking .date_time .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .booking .date_time .row > *
+    {
+        width: calc(14.285% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .booking .date_time label
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        padding: 9px 14px;
+    }
+
+
+
+    /*-----------------
+        Tournaments
+    -----------------*/
+    .tournaments .row
+    {
+        margin-bottom: -50px;
+        margin-left: -50px;
+    }
+
+    .tournaments .row > *
+    {
+        width: calc(50% - 50px);
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .tournaments .tournament .name
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 80px 0 100px;
+    }
+
+
+    .tariffs .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .tariffs .tariff .price
+    {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+
+    .tariffs .links
+    {
+        margin-top: 40px;
+    }
+
+
+    .tariffs .warning
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        margin-top: 45px;
+        margin-bottom: -50px;
+    }
+
+
+
+    /*------------------
+        First lesson
+    ------------------*/
+    .first_lesson
+    {
+        padding-top: 20px;
+    }
+
+
+    .first_lesson .block_head,
+    .first_lesson .includes
+    {
+        width: calc(50% - 25px);
+    }
+
+
+    .first_lesson .includes .items
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .first_lesson .includes .items > * + *
+    {
+        margin-left: 15px;
+    }
+
+
+    .first_lesson .includes .prices
+    {
+        padding: 25px 25px 0;
+    }
+
+    .first_lesson .includes .prices .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .first_lesson .includes .prices .price
+    {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+
+    .first_lesson .includes .warning
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        padding: 25px;
+    }
+
+
+
+    /*----------------
+        Will learn
+    ----------------*/
+    .will_learn
+    {
+        padding: 70px 0;
+    }
+
+
+    .will_learn .title
+    {
+        font-size: 45px;
+        line-height: 45px;
+
+        bottom: calc(100% + 62px);
+    }
+
+
+
+    /*-------------------------
+        Additional services
+    -------------------------*/
+    .additional_services .block_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .additional_services .service .name
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .additional_services .service .price
+    {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .block_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*---------
+        Ads
+    ---------*/
+    .ads .block_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .ads .ad
+    {
+        padding: 35px;
+    }
+
+    .ads .ad .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 620px;
+        padding-top: 170px;
+        padding-bottom: 100px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: calc(var(--font_size_title) + 10px);
+        line-height: calc(var(--font_size_title) + 20px);
+
+        padding-bottom: 28px;
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 21px;
+        line-height: 29px;
+
+        width: 760px;
+        margin-top: 35px;
+    }
+
+
+
+    /*----------------
+        Links wall
+    ----------------*/
+    .links_wall
+    {
+        padding: 60px 0 80px;
+    }
+
+
+    .links_wall .row
+    {
+        margin-bottom: -25px;
+        margin-left: -25px;
+    }
+
+    .links_wall .row > *
+    {
+        width: calc(33.333% - 25px);
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+
+    .links_wall .link .name
+    {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .links_wall .link .exp
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -40px;
+        margin-left: -30px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+
+
+    /*------------
+        Budget
+    ------------*/
+    .budget
+    {
+        padding: 80px 0;
+    }
+
+
+    .budget .row
+    {
+        margin-left: -50px;
+    }
+
+    .budget .row + .row
+    {
+        margin-top: 80px;
+    }
+
+    .budget .days,
+    .budget .info,
+    .budget .gallery
+    {
+        width: calc(50% - 50px);
+        margin-left: 50px;
+    }
+
+    .budget .days + .icon
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons
+    {
+        padding: 80px 0;
+    }
+
+
+    .persons .block_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 100px;
+        padding: 80px 0 68px;
+    }
+
+
+    .articles .bg:after
+    {
+        display: none;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -50px;
+        margin-left: -50px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 50px);
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+
+    .articles .row > .article .name
+    {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+
+    .articles .list > .article + .article
+    {
+        margin-top: 40px;
+    }
+
+
+    .articles .list > .article .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        About squash
+    ------------------*/
+    .about_squash
+    {
+        padding: 80px 0;
+    }
+
+
+    .about_squash .pluses
+    {
+        width: calc(100% + 30px);
+        margin-top: 80px;
+        margin-bottom: -40px;
+        margin-left: -30px;
+    }
+
+    .about_squash .pluses .item
+    {
+        width: calc(25% - 30px);
+        margin-left: 30px;
+    }
+
+
+
+    /*-------------------
+        Why franchise
+    -------------------*/
+    .why_franchise
+    {
+        padding: 80px 0;
+    }
+
+
+    .why_franchise .col_left
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .why_franchise .history
+    {
+        margin-bottom: -40px;
+        margin-left: -30px;
+    }
+
+    .why_franchise .history .item
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+
+
+    .why_franchise .map
+    {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .why_franchise .cities
+    {
+        margin-top: 45px;
+        padding: 0 65px;
+
+        column-gap: 30px;
+        column-count: 4;
+    }
+
+
+
+    /*----------------
+        Investment
+    ----------------*/
+    .investment .slide_wrap
+    {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .investment .slide
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------------------
+        Franchise included
+    ------------------------*/
+    .franchise_included .block_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .franchise_included .item + .item
+    {
+        margin-top: 60px;
+    }
+
+    .franchise_included .item .info
+    {
+        width: calc(50% + 30px);
+        padding: 40px 60px;
+    }
+
+    .franchise_included .item .thumb
+    {
+        width: calc(50% - 30px);
+        min-height: 400px;
+    }
+
+    .franchise_included .item ul li:before
+    {
+        top: 5px;
+    }
+
+
+
+    /*---------------------
+        Franchise order
+    ---------------------*/
+    .franchise_order
+    {
+        min-height: 600px;
+        padding: 80px 0;
+    }
+
+
+    .franchise_order .sub_title
+    {
+        font-size: calc(var(--font_size_title_small) - 2px);
+        line-height: calc(var(--font_size_title_small) + 6px);
+    }
+
+
+    .franchise_order .desc
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-top: 30px;
+    }
+
+
+    .franchise_order .btn
+    {
+        margin-top: 45px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer:before
+    {
+        height: 90px;
+    }
+
+
+    footer .info
+    {
+        padding: 45px 0 40px;
+    }
+
+    footer .bottom
+    {
+        padding: 25px 0;
+    }
+
+    footer .bottom .col_left
+    {
+        width: 250px;
+    }
+
+
+    footer .logo
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        height: 29px;
+    }
+
+    footer .logo span
+    {
+        height: 29px;
+    }
+
+
+    footer .subscribe
+    {
+        width: 250px;
+    }
+
+
+    footer .menu
+    {
+        column-gap: 30px;
+    }
+
+    footer .menu > * + *
+    {
+        margin-top: 25px;
+    }
+
+
+    footer .links a .icon
+    {
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
+    }
+
+
+    footer .contacts
+    {
+        width: auto;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

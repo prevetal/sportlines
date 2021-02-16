@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ffdd30">
+		<meta name="theme-color" content="#ffdd30">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+							<div class="icon"></div>
+						</a>
+
+						<div class="location">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							<div>Москва, ул. Ивантеевская, д. 13/1</div>
+							<div class="time">ПН–ВС 07:00–00:00</div>
+						</div>
+
+						<div class="contacts">
+							<div>
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<a href="tel:+79256424975">+7 925 642-49-75</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+								</div>
+							</div>
+
+							<button class="callback_btn modal_link" data-content="#callback_modal">ОБРАТНЫЙ ЗВОНОК</button>
+
+							<a href="/" class="schedule_booking_link">
+								<span>РАСПИСАНИЕ<br> И БРОНИРОВАНИЕ</span>
+							</a>
+						</div>
+
+						<div class="btns">
+							<button class="search_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button class="menu_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="search_modal" id="search_modal">
+					<div class="cont">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<button type="button" class="close"></button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="menu_modal" id="menu_modal">
+					<div class="cont">
+						<button type="button" class="close"></button>
+
+						<div class="links">
+							<div><a href="/">
+								<span>СКВОШ-КЛУБ «СПОРТИВНЫЕ ЛИНИИ»</span>
+								<small>Устав клуба</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>ЦЕНЫ И УСЛУГИ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ДЛЯ НАЧИНАЮЩИХ И МИЛЫХ ДАМ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>РАСПИСАНИЕ И БРОНИРОВАНИЕ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ТУРНИРЫ</span>
+								<small>Лига «Плохие парни»</small>
+							</a></div>
+
+							<div><a href="/">
+								<span>НОВОСТИ КЛУБА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ПРОЕЗД И КОНТАКТЫ</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+
+							<div><a href="/">
+								<span>ФРАНШИЗА</span>
+							</a></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">ГЛАВНАЯ</a> <span class="sep">//</span>
+							<span class="current">Расписание и бронирование</span>
+						</div>
+
+						<h1 class="page_title">Расписание и бронирование</h1>
+					</div>
+				</section>
+
+
+				<section class="booking block">
+					<div class="cont">
+						<div class="desc">Бронирование корта и запись на групповые тренировки осуществляется онлайн или по телефону.</div>
+
+
+						<div class="schemas">
+							<div class="title">Схема расположения кортов</div>
+
+							<img data-src="images/tmp/booking_schema.png" alt="" class="lozad">
+						</div>
+
+
+						<div class="courts">
+							<div class="title">ВЫБЕРИТЕ КОРТ</div>
+
+							<div class="row">
+								<input type="radio" name="court" id="court_check1">
+								<label for="court_check1" data-schema=".schema1">Центральный корт</label>
+
+								<input type="radio" name="court" id="court_check2">
+								<label for="court_check2" data-schema=".schema2">Корт 1</label>
+
+								<input type="radio" name="court" id="court_check3" checked>
+								<label for="court_check3" data-schema=".schema3">Корт 2</label>
+
+								<input type="radio" name="court" id="court_check4">
+								<label for="court_check4" data-schema=".schema4">Корт 3</label>
+
+								<input type="radio" name="court" id="court_check5">
+								<label for="court_check5" data-schema=".schema5">Корт 4</label>
+							</div>
+						</div>
+
+
+						<div class="date_time">
+							<div class="title">ВЫБЕРИТЕ ДАТУ И ВРЕМЯ</div>
+
+							<div class="head">
+								<div class="colors">
+									<div>
+										<div class="color grey"></div>
+										<span>Уже прошло</span>
+									</div>
+
+									<div>
+										<div class="color red"></div>
+										<span>Корт забронирован</span>
+									</div>
+
+									<div>
+										<div class="color blach"></div>
+										<span>Корт свободен</span>
+									</div>
+
+									<div>
+										<div class="color yellow"></div>
+										<span>Дата выбрана</span>
+									</div>
+								</div>
+
+								<div class="prev_next">
+									<a href="#" class="prev">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+									</a>
+
+									<a href="#" class="next">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
+									</a>
+								</div>
+							</div>
+
+							<div class="day">
+								<div class="row">
+									<input type="radio" name="day" id="day_check1" disabled>
+									<label for="day_check1">
+										<div class="week_day">ПН</div>
+										<div class="val">01</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check2">
+									<label for="day_check2">
+										<div class="week_day">ВТ</div>
+										<div class="val">02</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check3">
+									<label for="day_check3">
+										<div class="week_day">СР</div>
+										<div class="val">03</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check4" checked>
+									<label for="day_check4">
+										<div class="week_day">ЧТ</div>
+										<div class="val">04</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check5">
+									<label for="day_check5">
+										<div class="week_day">ПТ</div>
+										<div class="val">05</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check6" disabled>
+									<label for="day_check6" class="reserved">
+										<div class="week_day">СБ</div>
+										<div class="val">06</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check7">
+									<label for="day_check7">
+										<div class="week_day">ВС</div>
+										<div class="val">07</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check8">
+									<label for="day_check8">
+										<div class="week_day">ПН</div>
+										<div class="val">08</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check9">
+									<label for="day_check9">
+										<div class="week_day">ВТ</div>
+										<div class="val">09</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check10">
+									<label for="day_check10">
+										<div class="week_day">СР</div>
+										<div class="val">10</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check11">
+									<label for="day_check11">
+										<div class="week_day">ЧТ</div>
+										<div class="val">11</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check12">
+									<label for="day_check12">
+										<div class="week_day">ПТ</div>
+										<div class="val">12</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check13">
+									<label for="day_check13" class="reserved">
+										<div class="week_day">СБ</div>
+										<div class="val">13</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check14">
+									<label for="day_check14">
+										<div class="week_day">ВС</div>
+										<div class="val">14</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check15">
+									<label for="day_check15">
+										<div class="week_day">ПН</div>
+										<div class="val">15</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check16">
+									<label for="day_check16">
+										<div class="week_day">ВТ</div>
+										<div class="val">16</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check17">
+									<label for="day_check17">
+										<div class="week_day">СР</div>
+										<div class="val">17</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check18">
+									<label for="day_check18">
+										<div class="week_day">ЧТ</div>
+										<div class="val">18</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check19">
+									<label for="day_check19">
+										<div class="week_day">ПТ</div>
+										<div class="val">19</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check20">
+									<label for="day_check20" class="reserved">
+										<div class="week_day">СБ</div>
+										<div class="val">20</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check21">
+									<label for="day_check21">
+										<div class="week_day">ВС</div>
+										<div class="val">21</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check22">
+									<label for="day_check22">
+										<div class="week_day">ПН</div>
+										<div class="val">22</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check23">
+									<label for="day_check23">
+										<div class="week_day">ВТ</div>
+										<div class="val">23</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check24">
+									<label for="day_check24">
+										<div class="week_day">СР</div>
+										<div class="val">24</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check25">
+									<label for="day_check25">
+										<div class="week_day">ЧТ</div>
+										<div class="val">25</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check26">
+									<label for="day_check26">
+										<div class="week_day">ПТ</div>
+										<div class="val">26</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check27">
+									<label for="day_check27" class="reserved">
+										<div class="week_day">СБ</div>
+										<div class="val">27</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+
+									<input type="radio" name="day" id="day_check28">
+									<label for="day_check28">
+										<div class="week_day">ВС</div>
+										<div class="val">28</div>
+										<div class="month">ФЕВРАЛЬ</div>
+									</label>
+								</div>
+							</div>
+
+
+							<div class="time">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								</div>
+
+								<div class="row">
+									<input type="radio" name="time" id="time_check1">
+									<label for="time_check1">07:00–08:00</label>
+
+									<input type="radio" name="time" id="time_check2" disabled>
+									<label for="time_check2">08:00–09:00</label>
+
+									<input type="radio" name="time" id="time_check3">
+									<label for="time_check3">09:00–10:00</label>
+
+									<input type="radio" name="time" id="time_check4">
+									<label for="time_check4">10:00–11:00</label>
+
+									<input type="radio" name="time" id="time_check5" disabled>
+									<label for="time_check5">11:00–12:00</label>
+
+									<input type="radio" name="time" id="time_check6">
+									<label for="time_check6">12:00–13:00</label>
+
+									<input type="radio" name="time" id="time_check7" checked>
+									<label for="time_check7">13:00–14:00</label>
+
+									<input type="radio" name="time" id="time_check8">
+									<label for="time_check8">14:00–15:00</label>
+
+									<input type="radio" name="time" id="time_check9">
+									<label for="time_check9">15:00–16:00</label>
+
+									<input type="radio" name="time" id="time_check10" disabled>
+									<label for="time_check10" class="reserved">16:00–17:00</label>
+
+									<input type="radio" name="time" id="time_check11" disabled>
+									<label for="time_check11">17:00–18:00</label>
+
+									<input type="radio" name="time" id="time_check12" disabled>
+									<label for="time_check12">18:00–19:00</label>
+
+									<input type="radio" name="time" id="time_check13">
+									<label for="time_check13">19:00–20:00</label>
+
+									<input type="radio" name="time" id="time_check14">
+									<label for="time_check14">20:00–21:00</label>
+
+									<input type="radio" name="time" id="time_check15">
+									<label for="time_check15">21:00–22:00</label>
+
+									<input type="radio" name="time" id="time_check16">
+									<label for="time_check16">22:00–23:00</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_form block">
+					<div class="cont">
+						<div class="data">
+							<form action="" class="form big">
+								<div class="columns row">
+									<div class="line width1of3">
+										<div class="field">
+											<input type="text" name="" value="" class="input">
+
+											<div class="label">Ваше имя <span class="required">*</span></div>
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="tel" name="" value="" class="input">
+
+											<div class="label">Телефон <span class="required">*</span></div>
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="email" name="" value="" class="input">
+
+											<div class="label">E-mail <span class="required">*</span></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">ЗАБРОНИРОВАТЬ КОРТ</button>
+								</div>
+							</form>
+
+							<img data-src="images/bg_action_form.svg" alt="" class="bg bg1 lozad">
+							<img data-src="images/bg_action_form2.svg" alt="" class="bg bg2 lozad">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="tournaments block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title small">БЛИЖАЙШИЕ ТУРНИРЫ</div>
+						</div>
+
+
+						<div class="row">
+							<div class="tournament">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/tournament_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div>
+									<div class="name">
+										<a href="/"><span>Плохие парни</span></a>
+									</div>
+
+									<div class="date">15 НОЯБРЯ 2020</div>
+								</div>
+							</div>
+
+							<div class="tournament">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/tournament_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div>
+									<div class="name">
+										<a href="/"><span>Золотой кубок #СПОРТИВНЫЕ ЛИНИИ</span></a>
+									</div>
+
+									<div class="date">15 НОЯБРЯ 2020</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="no_line">
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<span>#СПОРТИВНЫЕ</span> ЛИНИИ
+								<div class="icon"></div>
+							</div>
+
+							<div class="subscribe">
+								<div class="title">Подпишитесь на рассылку</div>
+
+								<form action="" class="form">
+									<input type="email" name="" value="" class="input" placeholder="Ваш e-mail">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>ПОДПИСАТЬСЯ</span>
+									</button>
+								</form>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div><a href="/">О КЛУБЕ</a></div>
+							<div><a href="/">УСЛУГИ И ЦЕНЫ</a></div>
+							<div><a href="/">РАСПИСАНИЕ</a></div>
+							<div><a href="/">ФРАНШИЗА</a></div>
+							<div><a href="/">НОВОСТИ</a></div>
+							<div><a href="/">КОНТАКТЫ</a></div>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">
+								<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_money"></use></svg>
+								<span>КАК С НАМИ ЗАРАБОТАТЬ</span>
+							</a></div>
+
+							<div><a href="/">
+								<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_partners"></use></svg>
+								<span>ИЩУ ПАРТНЕРА</span>
+							</a></div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+79256424975">+7 925 642-49-75</a>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:slsport@mail.ru">slsport@mail.ru</a>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<div class="address">Москва, ул. Ивантеевская, д. 13/1</div>
+								<div class="time">ПН–ВС 07:00–00:00</div>
+							</div>
+
+							<div class="whatsapp">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								<a href="#">WhatsApp</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="col_left"></div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+						</div>
+
+						<div class="privacy_policy">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="buttonUp">
+				<button></button>
+			</div>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">ОБРАТНЫЙ ЗВОНОК</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+
+							<div class="label">Ваше имя <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+
+							<div class="label">Телефон <span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line agree">
+						<div class="field">
+							<input type="checkbox" name="agree" id="callback_agree_check">
+							<label for="callback_agree_check">
+								Я соглашаюсь на обработку моих персональных данных и принимаю<br> <a href="/" target="_blank">Политику конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
