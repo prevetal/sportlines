@@ -206,17 +206,9 @@ $(() => {
 	$('.text_block .spoler_btn').click(function (e) {
 		e.preventDefault()
 
-		const $parent = $(this).closest('.text_block')
-
-		if ($(this).hasClass('active')) {
-			$(this).removeClass('active')
-
-			$parent.find('.hide').slideUp(300)
-		} else {
-			$(this).addClass('active')
-
-			$parent.find('.hide').slideDown(300)
-		}
+		$(this).hasClass('active')
+			? $(this).removeClass('active').prev().slideUp(300)
+			: $(this).addClass('active').prev().slideDown(300)
 	})
 
 
