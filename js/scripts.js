@@ -256,10 +256,10 @@ $(() => {
 
 
 	// Спойлер в тексте
-	$('.more .link').click(function (e) {
+	$('.materials .more .link').click(function (e) {
 		e.preventDefault()
 
-		const $parent = $(this).closest('section')
+		const $parent = $(this).closest('.materials')
 
 		if ($(this).hasClass('active')) {
 			$(this).removeClass('active')
