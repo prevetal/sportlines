@@ -81,6 +81,11 @@
         order: 3;
     }
 
+    header .callback_btn
+    {
+        margin-left: 0;
+    }
+
 
     header .btns .btn + .btn
     {
