@@ -2533,12 +2533,6 @@ header .socials a:hover .icon
 }
 
 
-.text_block span
-{
-    color: #ffdd30;
-}
-
-
 .text_block a
 {
     color: #fff;
@@ -4786,7 +4780,7 @@ header .socials a:hover .icon
 
     text-align: center;
 
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
@@ -4795,6 +4789,11 @@ header .socials a:hover .icon
 .first_lesson .includes .prices > *
 {
     width: calc(50% - 10px);
+}
+
+.first_lesson .includes .prices > * + *
+{
+    margin-left: auto;
 }
 
 .first_lesson .includes .prices .name

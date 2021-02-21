@@ -134,9 +134,13 @@ $(() => {
 
 	// Лучшие рекомендуют лучших
 	if ($('.persons .swiper-container').length) {
+		let slides = $('.persons .swiper-container .slide').length
+
 		new Swiper('.persons .swiper-container', {
-			loop: true,
+			loop: slides > 1 ? true : false,
+			centeredSlides: slides > 1 ? false : true,
 			speed: 500,
+			loopedSlides: 2,
 			watchSlidesVisibility: true,
 			slideActiveClass: 'active',
 			slideVisibleClass: 'visible',
@@ -256,10 +260,10 @@ $(() => {
 
 
 	// Спойлер в тексте
-	$('.materials .more .link').click(function (e) {
+	$('.more .link').click(function (e) {
 		e.preventDefault()
 
-		const $parent = $(this).closest('.materials')
+		const $parent = $(this).closest('section')
 
 		if ($(this).hasClass('active')) {
 			$(this).removeClass('active')
