@@ -464,12 +464,6 @@
     /*-----------------
         Main slider
     -----------------*/
-    .main_slider .slide .cont
-    {
-        padding-top: 150px;
-    }
-
-
     .main_slider .slide .title
     {
         font-size: var(--font_size_title);

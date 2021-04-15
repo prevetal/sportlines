@@ -873,6 +873,11 @@ header .phone .icon
     fill: currentColor;
 }
 
+header .phone div + div
+{
+    margin-top: 8px;
+}
+
 header .phone a
 {
     color: currentColor;
@@ -891,6 +896,7 @@ header .email
 
     position: relative;
 
+    margin-top: 4px;
     padding-left: 29px;
 }
 
@@ -979,6 +985,84 @@ header .schedule_booking_link:hover
 header .schedule_booking_link:hover span
 {
     background-image: linear-gradient(transparent, transparent);
+}
+
+
+
+header .whatsapp_link
+{
+    display: none;
+}
+
+header .whatsapp_link a
+{
+    color: #c5c5c5;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+
+    display: flex;
+
+    padding: 4px 6px;
+
+    text-decoration: none;
+
+    border: 1px solid;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .whatsapp_link .icon
+{
+    display: block;
+
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+
+    fill: #ffdd30;
+}
+
+
+
+header .instagram_link
+{
+    display: none;
+}
+
+header .instagram_link a
+{
+    color: #c5c5c5;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+
+    display: flex;
+
+    padding: 4px 6px;
+
+    text-decoration: none;
+
+    border: 1px solid;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .instagram_link .icon
+{
+    display: block;
+
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+
+    fill: #7b7b7b;
 }
 
 

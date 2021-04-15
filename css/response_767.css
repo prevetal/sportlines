@@ -119,6 +119,51 @@
 
 
 
+    header .contacts
+    {
+        position: relative;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    header .phone div + div
+    {
+        margin-top: 4px;
+    }
+
+    header .email
+    {
+        margin-top: 7px;
+    }
+
+    header .callback_btn
+    {
+        margin-bottom: 39px;
+    }
+
+
+    header .whatsapp_link
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        display: block;
+    }
+
+
+    header .instagram_link
+    {
+        position: absolute;
+        right: 88px;
+        bottom: 0;
+
+        display: block;
+    }
+
+
+
     /*------------------
         Search modal
     ------------------*/
@@ -697,7 +742,7 @@
     .main_slider .slide .cont
     {
         min-height: 550px;
-        padding-top: 140px;
+        padding-top: 180px;
         padding-bottom: 80px;
     }
 
