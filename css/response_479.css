@@ -72,6 +72,13 @@
     }
 
 
+    header .location
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
     header .contacts
     {
         width: 100%;
@@ -86,6 +93,11 @@
         margin-left: 0;
     }
 
+
+    header .btns
+    {
+        margin-bottom: 0;
+    }
 
     header .btns .btn + .btn
     {
@@ -105,9 +117,18 @@
     }
 
 
-    header .socials
+    header .whatsapp_link
     {
-        display: none;
+        top: auto;
+        right: 88px;
+        bottom: 0;
+    }
+
+
+    header .instagram_link
+    {
+        top: auto;
+        bottom: 0;
     }
 
 
@@ -464,6 +485,11 @@
     /*-----------------
         Main slider
     -----------------*/
+    .main_slider .slide .cont
+    {
+        padding-top: 264px;
+    }
+
     .main_slider .slide .title
     {
         font-size: var(--font_size_title);

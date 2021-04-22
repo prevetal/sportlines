@@ -44,7 +44,7 @@
     ------------*/
     header
     {
-        padding: 48px 0 30px;
+        padding: 32px 0;
     }
 
 
@@ -62,15 +62,64 @@
     }
 
 
-    header .location
+    header .socials
     {
         display: none;
+    }
+
+
+    header .location_wrap
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: -25px;
+
+        justify-content: flex-end;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        order: 5;
     }
 
 
     header .phone
     {
         font-size: 22px;
+    }
+
+
+    header .contacts
+    {
+        position: relative;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    header .whatsapp_link
+    {
+        position: absolute;
+        bottom: 0;
+        left: 172px;
+
+        display: block;
+    }
+
+    header .instagram_link
+    {
+        position: absolute;
+        bottom: 0;
+        left: 260px;
+
+        display: block;
+    }
+
+
+    header .btns
+    {
+        align-self: flex-start;
     }
 
 
@@ -683,7 +732,7 @@
     .main_slider .slide .cont
     {
         min-height: 620px;
-        padding-top: 170px;
+        padding-top: 220px;
         padding-bottom: 100px;
     }
 

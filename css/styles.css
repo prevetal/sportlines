@@ -1012,7 +1012,7 @@ header .whatsapp_link a
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 header .whatsapp_link .icon
@@ -1051,7 +1051,7 @@ header .instagram_link a
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 header .instagram_link .icon

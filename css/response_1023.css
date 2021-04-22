@@ -68,7 +68,7 @@
     ------------*/
     header
     {
-        padding: 48px 0 20px;
+        padding: 24px 0;
     }
 
 
@@ -98,7 +98,6 @@
     }
 
 
-
     header .btns .btn + .btn
     {
         margin-left: 12px;
@@ -114,6 +113,40 @@
     {
         width: 27px;
         height: 23px;
+    }
+
+
+
+    header .whatsapp_link
+    {
+        right: 88px;
+        left: auto;
+    }
+
+    header .instagram_link
+    {
+        right: 0;
+        left: auto;
+    }
+
+
+
+    header .location_wrap
+    {
+        margin-top: 12px;
+        padding-left: 268px;
+    }
+
+
+    header .location
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    header .location br
+    {
+        display: none;
     }
 
 
@@ -680,7 +713,6 @@
     .main_slider .slide .cont
     {
         min-height: 560px;
-        padding-top: 120px;
         padding-bottom: 80px;
     }
 

@@ -73,13 +73,30 @@
     ------------*/
     header
     {
-        padding-top: 20px;
+        padding: 16px 0 20px;
     }
 
 
     header .logo
     {
         margin-bottom: 15px;
+    }
+
+
+    header .location_wrap
+    {
+        width: 100%;
+        margin-top: 12px;
+        padding: 0;
+
+        order: 5;
+    }
+
+    header .location
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 
 
@@ -123,6 +140,9 @@
     {
         position: relative;
 
+        width: 100%;
+
+        order: 3;
         align-items: flex-start;
         align-content: flex-start;
     }
@@ -145,21 +165,31 @@
 
     header .whatsapp_link
     {
-        position: absolute;
+        position: relative;
         right: 0;
-        bottom: 0;
 
         display: block;
+
+        margin-top: 8px;
+        margin-left: auto;
     }
 
 
     header .instagram_link
     {
-        position: absolute;
-        right: 88px;
-        bottom: 0;
+        position: relative;
 
         display: block;
+
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+
+    header .btns
+    {
+        margin-right: -6px;
+        margin-bottom: 15px;
     }
 
 
@@ -742,7 +772,7 @@
     .main_slider .slide .cont
     {
         min-height: 550px;
-        padding-top: 180px;
+        padding-top: 240px;
         padding-bottom: 80px;
     }
 
@@ -1110,5 +1140,31 @@
     .modal_title
     {
         margin-bottom: 30px;
+    }
+}
+
+
+
+@media print, (max-width: 649px)
+{
+    header .whatsapp_link
+    {
+        position: absolute;
+        top: 32px;
+        right: 0;
+
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+    header .instagram_link
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        margin-top: 0;
+        margin-left: 0;
     }
 }
