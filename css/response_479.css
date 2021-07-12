@@ -573,6 +573,21 @@
 
 
 
+    /*-------------
+        Persons
+    -------------*/
+    .persons .person .order
+    {
+        margin-top: 24px;
+    }
+
+    .persons .person .order .btn
+    {
+        padding: 13px 20px 12px;
+    }
+
+
+
     /*--------------
         Articles
     --------------*/

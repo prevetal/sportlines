@@ -1622,6 +1622,8 @@ header .socials a:hover .icon
     font-size: var(--font_size_title);
     font-weight: 700;
     line-height: calc(var(--font_size_title) + 10px);
+
+    text-transform: uppercase;
 }
 
 .block_head h3.title
@@ -5953,6 +5955,46 @@ header .socials a:hover .icon
     line-height: 22px;
 
     margin-top: 20px;
+}
+
+.persons .person .desc.yellow
+{
+    color: #ffdd30;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+}
+
+
+.persons .person .order
+{
+    margin-top: 32px;
+
+    text-align: center;
+}
+
+.persons .person .order .btn
+{
+    color: #121212;
+    font-weight: 700;
+    line-height: 22px;
+
+    display: inline-block;
+
+    padding: 15px 24px 13px;
+
+    transition: background .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    border-radius: 8px;
+    background: #ffdd30;
+}
+
+.persons .person .order .btn:hover
+{
+    background: #fff;
 }
 
 
