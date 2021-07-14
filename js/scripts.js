@@ -133,10 +133,10 @@ $(() => {
 
 
 	// Лучшие рекомендуют лучших
-	if ($('.persons .swiper-container').length) {
-		let slides = $('.persons .swiper-container .slide').length
+	if ($('.persons:not(.our_trainers) .swiper-container').length) {
+		let slides = $('.persons:not(.our_trainers) .swiper-container .slide').length
 
-		new Swiper('.persons .swiper-container', {
+		new Swiper('.persons:not(.our_trainers) .swiper-container', {
 			loop: slides > 1 ? true : false,
 			centeredSlides: slides > 1 ? false : true,
 			speed: 500,
@@ -169,18 +169,73 @@ $(() => {
 			on: {
 				init: () => {
 					setTimeout(() => {
-						let thumbH = $('.persons .person .thumb').outerHeight()
+						let thumbH = $('.persons:not(.our_trainers) .person .thumb').outerHeight()
 
-						$('.persons .swiper-button-prev').css('top', thumbH / 2)
-						$('.persons .swiper-button-next').css('top', thumbH / 2)
+						$('.persons:not(.our_trainers) .swiper-button-prev').css('top', thumbH / 2)
+						$('.persons:not(.our_trainers) .swiper-button-next').css('top', thumbH / 2)
 					})
 				},
 				resize: () => {
 					setTimeout(() => {
-						let thumbH = $('.persons .person .thumb').outerHeight()
+						let thumbH = $('.persons:not(.our_trainers) .person .thumb').outerHeight()
 
-						$('.persons .swiper-button-prev').css('top', thumbH / 2)
-						$('.persons .swiper-button-next').css('top', thumbH / 2)
+						$('.persons:not(.our_trainers) .swiper-button-prev').css('top', thumbH / 2)
+						$('.persons:not(.our_trainers) .swiper-button-next').css('top', thumbH / 2)
+					})
+				}
+			}
+		})
+	}
+
+
+	if ($('.persons.our_trainers .swiper-container').length) {
+		let slides = $('.persons.our_trainers .swiper-container .slide').length
+
+		new Swiper('.persons.our_trainers .swiper-container', {
+			loop: slides > 1 ? true : false,
+			centeredSlides: slides > 1 ? false : true,
+			speed: 500,
+			loopedSlides: 2,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 20,
+					slidesPerView: 1
+				},
+				768: {
+					spaceBetween: 20,
+					slidesPerView: 2
+				},
+				1024: {
+					spaceBetween: 30,
+					slidesPerView: 2
+				},
+				1280: {
+					spaceBetween: 80,
+					slidesPerView: 2
+				}
+			},
+			on: {
+				init: () => {
+					setTimeout(() => {
+						let thumbH = $('.persons.our_trainers .person .thumb').outerHeight()
+
+						$('.persons.our_trainers .swiper-button-prev').css('top', thumbH / 2)
+						$('.persons.our_trainers .swiper-button-next').css('top', thumbH / 2)
+					})
+				},
+				resize: () => {
+					setTimeout(() => {
+						let thumbH = $('.persons.our_trainers .person .thumb').outerHeight()
+
+						$('.persons.our_trainers .swiper-button-prev').css('top', thumbH / 2)
+						$('.persons.our_trainers .swiper-button-next').css('top', thumbH / 2)
 					})
 				}
 			}
